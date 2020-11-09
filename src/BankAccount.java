@@ -37,7 +37,7 @@ public class BankAccount {
         }
     }
 
-    //make money go into other account
+
     public int transfer(long account, double amount) {
         if (amount < 0) {
             return 2;

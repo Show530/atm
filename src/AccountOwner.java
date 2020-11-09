@@ -51,7 +51,7 @@ public class AccountOwner {
             return salutation;
         }
     }
-    // Add other parameters
+
     public String validateEmailAddress(String emailAddress) {
         if (emailAddress.length() < 7 || emailAddress.length() > 254 || !emailAddress.contains("@") || !emailAddress.contains(".")) {
             return null;
